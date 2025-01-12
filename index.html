@@ -37,15 +37,18 @@
         </div>
     </nav>
 
-<!-- Таблица тарифов -->
-    
+<!-- Тело -->
+
     <div uk-scrollspy="cls:uk-animation-fade" class="uk-container-expanded uk-margin uk-margin-left uk-margin-right">
         <ul uk-accordion>
+
+            <!-- Таблица тарифов -->
+
             <li class="uk-open">
                 
                 <a class="uk-accordion-title" href="#tariftable">Тарифы</a>
 
-                <div id="tariftable" class="uk-accordion-content uk-container-small uk-align-center">
+                <div id="tariftable" class="uk-accordion-content uk-container-large uk-align-center">
 
                     <div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-2@s uk-text-center" uk-grid>
 
@@ -81,7 +84,85 @@
                     
                 </div>
             </li>
+
+<!-- Общая информация -->
+
+            <li>
+
+                <a class="uk-accordion-title" href="#more">Общая информация</a>
+
+                <div id="more" class="uk-accordion-content uk-container uk-container-expanded uk-align-left">
+
+                    <ul uk-accordion>
+
+                        <li>
+
+                            <p></p>
+                            <a class="uk-accordion-title" href="#managers" style="font-size: 1em;">Основные менеджеры</a>
+
+                            <div id="managers" class="uk-accordion-content uk-container uk-container-expanded uk-align-left">
+                                <div class="uk-child-width-1-1@s uk-text-left" uk-grid>
+
+                                    <div class="uk-card uk-card-default uk-width-1-1@s">
+                                        <div class="uk-card-header">
+                                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img src="dev/source/managers/dasha.png" alt="Avatar">
+                                                </div>
+                                                <div class="uk-width-expand uk-text-right">
+                                                    <h5 class="uk-card-title uk-margin-remove-bottom">Даша</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-card-body">
+                                            <ul>
+                                                <li>МТС УБ</li>
+                                                <li>Мегафон - Турбо, 2р, Приват</li>
+                                                <li>МНП любых операторов (сам перенос)</li>
+                                            </ul>                                
+                                        </div>
+                                    </div>      
+
+                                    <div class="uk-card uk-card-default uk-width-1-1@s">
+                                        <div class="uk-card-header">
+                                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img src="dev/source/managers/novikov.png" alt="Avatar">
+                                                </div>
+                                                <div class="uk-width-expand uk-text-right">
+                                                    <h5 class="uk-card-title uk-margin-remove-bottom">Новиков</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-card-body">
+                                            <ul>
+                                                <li>МТС - УБ, Премиум 300, Go-Smart+70</li>
+                                                <li>Мегафон 200 гб 400 руб</li>
+                                            </ul>                                
+                                        </div>
+                                    </div>     
+
+                                </div>                  
+                            </div>
+
+                        </li>
+
+                        <li>
+
+                            <p></p>
+                            <a class="uk-accordion-title" href="#managers" style="font-size: 1em;">Ещё-че-нибудь</a>
+
+                            <div id="smthelse" class="uk-accordion-content uk-container uk-container-expanded uk-align-left">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo nam magni voluptatem repellat sapiente maxime quae rerum, quisquam ab numquam repudiandae, delectus ratione laboriosam ducimus facere modi corrupti? Quod.</p>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </li>
         </ul>
     </div>
+
 </body>
 </html>

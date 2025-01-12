@@ -40,7 +40,7 @@
  <!-- Таблица тарифов -->
     
     <div class="uk-container-expanded uk-margin uk-margin-left uk-margin-right">
-        <ul uk-accordion>
+        <ul uk-accordion="collapsible: false">
             <li>
                 
                 <a class="uk-accordion-title" href="#tariftable">Тарифы</a>
@@ -81,88 +81,167 @@
                     
                 </div>
             </li>
+
+            <li class="uk-open">
+                <!-- Кнопки -->
+
+                <a class="uk-accordion-title uk-text-center" href="#mega"><h3>Тарифы Мегафон</h3></a>
+
+                <div id="mega" class="uk-accordion-content uk-thumbnav uk-margin uk-grid-column-small uk-grid-row-medium uk-child-width-1-4@s uk-text-center" uk-scrollspy="cls:uk-animation-slide-bottom-small" uk-grid>
+
+                    <!-- Сим 325 -->
+                    <div class="uk-card">
+
+                        <a class="uk-button uk-text-center" href="#sim325" uk-toggle>
+                            <img src="source/tarifi/megafon/sim325.jpg" alt="">
+                            <p style="text-decoration: none; color: rgb(49, 49, 49);">Сим-карта "325"</p>
+                        </a>
+
+                    </div>
+
+                    <!-- Тариф 2р -->
+                    <div class="uk-card">
+
+                        <a class="uk-button uk-text-center" href="#tarif2r" uk-toggle>
+                            <img src="source/tarifi/megafon/m2r.jpg" alt="">
+                            <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "2р"</p>
+                        </a>
+
+                    </div>
+                    
+                    <!-- Тариф Альфа Хит -->
+                    <div class="uk-card">
+
+                        <a class="uk-button uk-text-center" href="#tarifah" uk-toggle>
+                            <img src="source/tarifi/megafon/tah.jpg" alt="">
+                            <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "Альфа Хит"</p>
+                        </a>
+
+                    </div>
+
+                    <!-- Тариф Турбо 150 (гб) -->
+                    <div class="uk-card">
+
+                        <a class="uk-button uk-text-center" href="#tarif150150" uk-toggle>
+                            <img src="source/tarifi/megafon/t150150.jpg" alt="">
+                            <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "Турбо 150 (гБ)"</p>
+                        </a>
+
+                    </div>
+
+                    <!-- Тариф Турбо 250 -->
+                    <div class="uk-card">
+
+                        <a class="uk-button uk-text-center" href="#tarif150150" uk-toggle>
+                            <img src="source/tarifi/megafon/t150150.jpg" alt="">
+                            <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "Турбо 250"</p>
+                        </a>
+                    
+                    </div>
+
+                    <!-- Тариф Турбо 150 (БИ)-->
+                    <div class="uk-card">
+
+                        <a class="uk-button uk-text-center" href="#tarif150bi" uk-toggle>
+                            <img src="source/tarifi/megafon/t150bi.jpg" alt="">
+                            <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "Турбо 150 БИ"</p>
+                        </a>
+
+                    </div>
+
+                    <!-- Тариф Матрикс -->
+                    <div class="uk-card">
+
+                        <a class="uk-button uk-text-center" href="#tarifmatrix" uk-toggle>
+                            <img src="source/tarifi/megafon/matrix.jpg" alt="">
+                            <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "Матрикс"</p>
+                        </a>
+
+                    </div>
+                </div>
+            </li>
+
+<!-- Общая информация -->
+
+            <li>
+
+                    <a class="uk-accordion-title" href="#more">Общая информация</a>
+
+                    <div id="more" class="uk-accordion-content uk-container uk-container-expanded uk-align-left">
+
+                        <ul uk-accordion>
+
+                            <li>
+
+                                <p></p>
+                                <a class="uk-accordion-title" href="#managers" style="font-size: 1em;">Основные менеджеры</a>
+
+                                <div id="managers" class="uk-accordion-content uk-container uk-container-expanded uk-align-left">
+                                    <div class="uk-child-width-1-1@s uk-text-left" uk-grid>
+
+                                        <div class="uk-card uk-card-default uk-width-1-1@s">
+                                            <div class="uk-card-header">
+                                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <img src="dev/source/managers/dasha.png" alt="Avatar">
+                                                    </div>
+                                                    <div class="uk-width-expand uk-text-right">
+                                                        <h5 class="uk-card-title uk-margin-remove-bottom">Даша</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="uk-card-body">
+                                                <ul>
+                                                    <li>МТС УБ</li>
+                                                    <li>Мегафон - Турбо, 2р, Приват</li>
+                                                    <li>МНП любых операторов (сам перенос)</li>
+                                                </ul>                                
+                                            </div>
+                                        </div>      
+
+                                        <div class="uk-card uk-card-default uk-width-1-1@s">
+                                            <div class="uk-card-header">
+                                                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <img src="dev/source/managers/novikov.png" alt="Avatar">
+                                                    </div>
+                                                    <div class="uk-width-expand uk-text-right">
+                                                        <h5 class="uk-card-title uk-margin-remove-bottom">Новиков</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="uk-card-body">
+                                                <ul>
+                                                    <li>МТС - УБ, Премиум 300, Go-Smart+70</li>
+                                                    <li>Мегафон 200 гб 400 руб</li>
+                                                </ul>                                
+                                            </div>
+                                        </div>     
+
+                                    </div>                  
+                                </div>
+
+                            </li>
+
+                            <li>
+
+                                <p></p>
+                                <a class="uk-accordion-title" href="#managers" style="font-size: 1em;">Ещё-че-нибудь</a>
+
+                                <div id="smthelse" class="uk-accordion-content uk-container uk-container-expanded uk-align-left">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo nam magni voluptatem repellat sapiente maxime quae rerum, quisquam ab numquam repudiandae, delectus ratione laboriosam ducimus facere modi corrupti? Quod.</p>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+
+            </li>
+            
         </ul>
     </div>
 
 <!-- Тарифы Мегафон -->
-
-    <div class="uk-container-expanded uk-align-center uk-text-center" uk-scrollspy="cls:uk-animation-slide-bottom-small">
-        <h2 style="color: rgb(49, 49, 49);">Тарифы Мегафон</h2>
-    </div>
-
-    <!-- Кнопки -->
-        <div class="uk-thumbnav uk-margin uk-grid-column-small uk-grid-row-medium uk-child-width-1-4@s uk-text-center" uk-scrollspy="cls:uk-animation-slide-bottom-small" uk-grid>
-
-            <!-- Сим 325 -->
-            <div class="uk-card">
-
-                <a class="uk-button uk-text-center" href="#sim325" uk-toggle>
-                    <img src="source/tarifi/megafon/sim325.jpg" alt="">
-                    <p style="text-decoration: none; color: rgb(49, 49, 49);">Сим-карта "325"</p>
-                </a>
-
-            </div>
-
-            <!-- Тариф 2р -->
-            <div class="uk-card">
-
-                <a class="uk-button uk-text-center" href="#tarif2r" uk-toggle>
-                    <img src="source/tarifi/megafon/m2r.jpg" alt="">
-                    <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "2р"</p>
-                </a>
-
-            </div>
-            
-            <!-- Тариф Альфа Хит -->
-            <div class="uk-card">
-
-                <a class="uk-button uk-text-center" href="#tarifah" uk-toggle>
-                    <img src="source/tarifi/megafon/tah.jpg" alt="">
-                    <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "Альфа Хит"</p>
-                </a>
-
-            </div>
-
-            <!-- Тариф Турбо 150 (гб) -->
-            <div class="uk-card">
-
-                <a class="uk-button uk-text-center" href="#tarif150150" uk-toggle>
-                    <img src="source/tarifi/megafon/t150150.jpg" alt="">
-                    <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "Турбо 150 (гБ)"</p>
-                </a>
-
-            </div>
-
-             <!-- Тариф Турбо 250 -->
-             <div class="uk-card">
-
-                <a class="uk-button uk-text-center" href="#tarif150150" uk-toggle>
-                    <img src="source/tarifi/megafon/t150150.jpg" alt="">
-                    <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "Турбо 250"</p>
-                </a>
-            
-            </div>
-
-            <!-- Тариф Турбо 150 (БИ)-->
-            <div class="uk-card">
-
-                <a class="uk-button uk-text-center" href="#tarif150bi" uk-toggle>
-                    <img src="source/tarifi/megafon/t150bi.jpg" alt="">
-                    <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "Турбо 150 БИ"</p>
-                </a>
-
-            </div>
-
-            <!-- Тариф Матрикс -->
-            <div class="uk-card">
-
-                <a class="uk-button uk-text-center" href="#tarifmatrix" uk-toggle>
-                    <img src="source/tarifi/megafon/matrix.jpg" alt="">
-                    <p style="text-decoration: none; color: rgb(49, 49, 49);">Тариф "Матрикс"</p>
-                </a>
-
-            </div>
-        </div>
 
     <!-- Тела -->
     <div class="uk-flex-center uk-text-center">
@@ -367,6 +446,8 @@
                 
         </div>
     </div>
+
+
 
 </body>
 </html>
